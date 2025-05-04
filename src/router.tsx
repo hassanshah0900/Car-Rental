@@ -3,8 +3,6 @@ import App from "./App";
 import About from "./pages/About";
 import Testimonials from "./pages/TestimonialsPage";
 import Home from "./pages/Home";
-// import Models from "./pages/Models";
-// import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 
 const router = createBrowserRouter([
@@ -14,10 +12,8 @@ const router = createBrowserRouter([
     children: [
       { path: "", element: <Home /> },
       { path: "about", element: <About /> },
-      // { path: "models", element: <Models /> },
       { path: "testimonials", element: <Testimonials /> },
       { path: "team", element: <Team /> },
-      // { path: "contact", element: <Contact /> },
     ],
   },
 ]);
