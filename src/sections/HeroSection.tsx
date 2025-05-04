@@ -18,7 +18,7 @@ function HeroSection() {
             Rent the car of your dreams. Unbeatable prices, unlimited miles,
             flexible pick-up options and much more.
           </BodyText>
-          <div className="flex justify-center md:justify-start gap-4">
+          <div className="flex justify-center md:justify-start gap-4 flex-wrap">
             <a href="#booking-form">
               <Button className="py-4" variant="icon">
                 Book Ride

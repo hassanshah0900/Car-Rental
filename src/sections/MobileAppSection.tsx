@@ -16,7 +16,7 @@ function MobileAppSection() {
             order event music. Incommode so intention defective at convinced.
             Led income months itself and houses you.
           </BodyText>
-          <div className="flex gap-8 max-md:justify-center">
+          <div className="flex flex-wrap gap-8 max-md:justify-center">
             <img
               className="w-48 cursor-pointer"
               src={googleStore}
