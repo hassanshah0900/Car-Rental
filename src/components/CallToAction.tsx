@@ -10,7 +10,7 @@ function CallToAction() {
           </div>
           <div className="text-primary text-3xl font-bold flex gap-3 justify-center items-center">
             <Phone className="size-8" />
-            03441418499
+            03211234567
           </div>
         </Container>
       </div>

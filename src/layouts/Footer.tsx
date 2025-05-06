@@ -17,11 +17,11 @@ function Footer() {
             have the perfect car to meet your needs.
           </BodyText>
           <Link
-            to="tel:+923441418499"
+            to="tel:+923211234567"
             className="flex text-sm gap-3 w-max max-[550px]:m-auto mb-2"
           >
             <PhoneCall />
-            +923441418499
+            +923211234567
           </Link>
           <Link
             to="mailto:hasni9267@gmail.com"
