@@ -1,8 +1,8 @@
 import HeadingLarge from "../components/HeadingLarge";
 import HeadingSmall from "../components/HeadingSmall";
-import selectCarIcon from "../../public/icons/select-car-icon.png";
-import supportIcon from "../../public/icons/support-icon.png";
-import drivingCarIcon from "../../public/icons/driving-car-icon.png";
+import selectCarIcon from "/icons/select-car-icon.png";
+import supportIcon from "/icons/support-icon.png";
+import drivingCarIcon from "/icons/driving-car-icon.png";
 import MediaObject from "../components/MediaObject";
 
 const features = [

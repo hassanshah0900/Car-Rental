@@ -2,12 +2,12 @@ import { ChevronRight } from "lucide-react";
 import Button from "../components/Button";
 import HeadingLarge from "../components/HeadingLarge";
 import HeadingSmall from "../components/HeadingSmall";
-import carIcon from "../../public/icons/car-icon.png";
-import coinIcon from "../../public/icons/coin-icon.png";
-import holdedCoinIcon from "../../public/icons/holded-coin-icon.png";
+import carIcon from "/icons/car-icon.png";
+import coinIcon from "/icons/coin-icon.png";
+import holdedCoinIcon from "/icons/holded-coin-icon.png";
 import MediaObject from "../components/MediaObject";
 import Container from "../components/Container";
-import threeCars from "../../public/three-cars.png";
+import threeCars from "/three-cars.png";
 import BodyText from "../components/BodyText";
 
 const qualities = [
@@ -29,7 +29,7 @@ const qualities = [
 ];
 function ChooseUsSection() {
   return (
-    <section className="py-20 bg-[url('../../public/backgrounds/background-tyre-marks.png')] bg-no-repeat bg-contain bg-[-3rem_17rem]">
+    <section className="py-20 bg-[url('/backgrounds/background-tyre-marks.png')] bg-no-repeat bg-contain bg-[-3rem_17rem]">
       <Container>
         <img
           className="m-auto mb-8"

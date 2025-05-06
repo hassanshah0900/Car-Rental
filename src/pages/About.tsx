@@ -4,11 +4,11 @@ import Container from "../components/Container";
 import FeaturesSection from "../sections/FeaturesSection";
 import HeadingLarge from "../components/HeadingLarge";
 import HeadingSmall from "../components/HeadingSmall";
-import aboutPic from "../../public/about.jpg";
+import aboutPic from "/about.jpg";
 import IconGroup from "../components/IconGroup";
-import carTypeIcon from "../../public/icons/car-types.png";
-import rentalOutletIcon from "../../public/icons/rental-outlet.png";
-import repairShopIcon from "../../public/icons/repair-shop.png";
+import carTypeIcon from "/icons/car-types.png";
+import rentalOutletIcon from "/icons/rental-outlet.png";
+import repairShopIcon from "/icons/repair-shop.png";
 
 function About() {
   return (

@@ -74,7 +74,7 @@ function BookingForm() {
       className="bg-gradient-to-b from-transparent via-background -translate-y-16  md:-translate-y-28"
     >
       <Container>
-        <Container className="bg-white bg-[url('../../public/backgrounds/wood-bg.png')] p-6 pb-10 rounded shadow-xl md:px-12 md:pt-6 md:pb-16">
+        <Container className="bg-white bg-[url('/backgrounds/wood-bg.png')] p-6 pb-10 rounded shadow-xl md:px-12 md:pt-6 md:pb-16">
           {isFormSubmitted && (
             <p className="text-green-700 mb-3">
               The Form has been Submitted successfully

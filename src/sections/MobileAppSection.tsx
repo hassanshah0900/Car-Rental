@@ -1,11 +1,11 @@
 import BodyText from "../components/BodyText";
 import HeadingLarge from "../components/HeadingLarge";
-import googleStore from "../../public/google-playstore.svg";
-import appleStore from "../../public/appstore.svg";
+import googleStore from "/google-playstore.svg";
+import appleStore from "/appstore.svg";
 import Container from "../components/Container";
 function MobileAppSection() {
   return (
-    <section className="bg-background py-24 md:bg-[url('../../public/backgrounds/background-mobile.png')] bg-cover bg-no-repeat bg-top">
+    <section className="bg-background py-24 md:bg-[url('/backgrounds/background-mobile.png')] bg-cover bg-no-repeat bg-top">
       <Container>
         <div className="max-w-[500px] max-md:text-center max-md:m-auto">
           <HeadingLarge className="leading-snug">

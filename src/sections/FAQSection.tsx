@@ -32,7 +32,7 @@ function FAQSection() {
     else setOpenedQuestionId(id);
   };
   return (
-    <section className="bg-[url('../../public/backgrounds/background-car.png')] bg-no-repeat bg-left py-20">
+    <section className="bg-[url('/backgrounds/background-car.png')] bg-no-repeat bg-left py-20">
       <Container className="max-w-[700px]">
         <div className="text-center mb-12">
           <HeadingSmall>FAQ</HeadingSmall>

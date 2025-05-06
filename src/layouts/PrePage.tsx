@@ -13,7 +13,7 @@ function PrePage() {
   const { pathname } = useLocation();
   return (
     <div
-      className={`bg-[url(../../public/backgrounds/pre-page-background.png)] bg-cover ${
+      className={`bg-[url(/backgrounds/pre-page-background.png)] bg-cover ${
         pathname === "/" ? "hidden" : "block"
       }`}
     >

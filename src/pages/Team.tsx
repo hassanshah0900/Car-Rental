@@ -1,11 +1,11 @@
 import CallToAction from "../components/CallToAction";
 import TeamMember from "../components/TeamMember";
-import member1 from "../../public/team-members/member1.png";
-import member2 from "../../public/team-members/member2.png";
-import member3 from "../../public/team-members/member3.png";
-import member4 from "../../public/team-members/member4.png";
-import member5 from "../../public/team-members/member5.png";
-import member6 from "../../public/team-members/member6.png";
+import member1 from "/team-members/member1.png";
+import member2 from "/team-members/member2.png";
+import member3 from "/team-members/member3.png";
+import member4 from "/team-members/member4.png";
+import member5 from "/team-members/member5.png";
+import member6 from "/team-members/member6.png";
 import Container from "../components/Container";
 
 const teamMembers = [

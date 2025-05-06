@@ -1,13 +1,13 @@
 import { ChevronRight, CircleCheck } from "lucide-react";
 import Button from "../components/Button";
 import Container from "../components/Container";
-import heroCar from "../../public/hero-car.png";
+import heroCar from "/hero-car.png";
 import BodyText from "../components/BodyText";
 import HeadingSmall from "../components/HeadingSmall";
 
 function HeroSection() {
   return (
-    <section className="bg-background md:bg-[url('../../public/backgrounds/hero-bg.png')] bg-right bg-contain bg-no-repeat pt-36 pb-44">
+    <section className="bg-background md:bg-[url('/backgrounds/hero-bg.png')] bg-right bg-contain bg-no-repeat pt-36 pb-44">
       <Container className="flex items-center text-center md:text-start">
         <div className="m-auto w-96 md:w-[40%]">
           <HeadingSmall>Plan your trip now</HeadingSmall>
