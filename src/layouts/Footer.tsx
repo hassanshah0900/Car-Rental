@@ -24,11 +24,11 @@ function Footer() {
             +923211234567
           </Link>
           <Link
-            to="mailto:hasni9267@gmail.com"
+            to="mailto:support@car-rental.com"
             className="flex tex-sm gap-3 w-max max-[550px]:m-auto"
           >
             <Mail />
-            hasni9267@gmail.com
+            support@car-rental.com
           </Link>
         </div>
         <div className="flex flex-col gap-2">
